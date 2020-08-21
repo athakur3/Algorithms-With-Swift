@@ -6,18 +6,6 @@
 //  Copyright © 2020 Akshansh Thakur. All rights reserved.
 //
 
-var data: [Int] {
-    var array: [Int] = []
-    
-    Array(0...500).forEach({ (value) in
-        array.append(Int.random(in: 0..<4000))
-    })
-    
-    array.sort()
-    
-    return array
-}
-
 func checkTwoSum(array: [Int], sum: Int) -> (Bool, Int?, Int?) {
     
     var i = 0
