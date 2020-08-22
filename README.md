@@ -3,6 +3,7 @@ Writing this project for reference and learning purposes. Have started with simp
 
 ## Common Algorithms
 
-##### Binary Search
-##### Reverse an Array
-##### Two Sum Problem
+##### Binary Search -> BinarySearch.swift
+##### Reverse an Array -> ReverseArray.swift
+##### Two Sum Problem -> TwoSumProblem.swift
+##### Non-decreasing Array -> LeetCode665.swift
