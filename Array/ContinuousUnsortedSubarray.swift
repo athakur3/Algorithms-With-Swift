@@ -90,6 +90,6 @@ func findUnsortedSubarray(_ nums: [Int]) -> Int { // Return the length of shorte
     /* Future Scope 
 
         This algorithm works and provides us with a solution that is O(n)
-        But instead of two horizontal iterations, we must look forward to optimizing this further to solve this within just one iteration.
+        But instead of two consecutive iterations, we must look forward to optimizing this further to solve this within just one iteration.
 
     */
