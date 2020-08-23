@@ -3,9 +3,31 @@ Writing this project for reference and learning purposes. Have started with simp
 
 ## Common Algorithms
 
-- [Binary Search](BinarySearch.swift)
-- [Reverse an Array](ReverseArray.swift)
-- [Two Sum Problem](TwoSumProblem.swift)
-- [Non-decreasing Array](LeetCode665.swift)
-- [Find Third Maximum in Array](FindThirdMax.swift)
-- [Balanced Parantheses](Balance_Parantheses.swift)
+### Array
+
+- [Reverse an Array](Array/ReverseArray.swift)
+- [Two Sum Problem](Array/TwoSumProblem.swift)
+- [Non-decreasing Array](Array/LeetCode665.swift)
+- [Find Third Maximum in Array](Array/FindThirdMax.swift)
+- [Triplet Sum problem](Array/find_triplet.swift)
+- [First Non Repetitive number in array](Array/first_non_repetative_number.swift)
+- [Data Source Array](Array/DataSourceArray.swift)
+
+### Strings
+
+- [Balanced Parantheses](String/Balance_Parantheses.swift)
+- [Check Palindrome](String/check_palindrome.swift)
+- [Create Unique String](String/Create_Unique_string.swift)
+- [Find Anagram](String/find_anagram.swift)
+- [Unique String](String/Unique_string.swift)
+
+### Sort
+
+- [Merge Sort](Sort/merge_sort.swift)
+
+### Search
+
+- [Binary Search](Search/BinarySearch.swift)
+
+
+
