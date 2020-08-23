@@ -14,6 +14,7 @@ Writing this project for reference, fun and learning purposes. Have started with
 - [Data Source Array](Array/DataSourceArray.swift)
 - [Array Running Sum](Array/RunningSum.swift)
 - [Shortest Unsorted Continuous Subarray](Array/ContinuousUnsortedSubarray.swift)
+- [Rotate Array](Array/RotateArray.swift)
 
 ### Strings
 
