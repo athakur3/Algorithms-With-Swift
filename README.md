@@ -12,6 +12,7 @@ Writing this project for reference and learning purposes. Have started with simp
 - [Triplet Sum problem](Array/find_triplet.swift)
 - [First Non Repetitive number in array](Array/first_non_repetative_number.swift)
 - [Data Source Array](Array/DataSourceArray.swift)
+- [Shortest Unsorted Continuous Subarray](Array/ContinuousUnsortedSubarray.swift)
 
 ### Strings
 
