@@ -8,3 +8,4 @@ Writing this project for reference and learning purposes. Have started with simp
 ##### Two Sum Problem -> TwoSumProblem.swift
 ##### Non-decreasing Array -> LeetCode665.swift
 ##### Find Third Maximum in Array -> FindThirdMax.swift
+##### Balanced Parantheses in string -> [a relative link](Balanced_Parantheses.swift)
