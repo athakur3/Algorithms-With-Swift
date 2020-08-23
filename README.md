@@ -3,8 +3,9 @@ Writing this project for reference and learning purposes. Have started with simp
 
 ## Common Algorithms
 
-##### Binary Search -> BinarySearch.swift
-##### Reverse an Array -> ReverseArray.swift
-##### Two Sum Problem -> TwoSumProblem.swift
-##### Non-decreasing Array -> LeetCode665.swift
-##### Find Third Maximum in Array -> FindThirdMax.swift
+- [Binary Search](BinarySearch.swift)
+- [Reverse an Array](ReverseArray.swift)
+- [Two Sum Problem](TwoSumProblem.swift)
+- [Non-decreasing Array](LeetCode665.swift)
+- [Find Third Maximum in Array](FindThirdMax.swift)
+- [Balanced Parantheses](Balance_Parantheses.swift)
