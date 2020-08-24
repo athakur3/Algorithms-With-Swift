@@ -1,5 +1,5 @@
 # Algorithms-With-Swift
-Writing this project for reference and learning purposes. Have started with simple algorithms, will try to cover more as we go on this journey
+Writing this project for reference, fun and learning purposes. Have started with simple algorithms, will try to cover more as we go on this journey
 
 ## Common Algorithms
 
@@ -12,6 +12,9 @@ Writing this project for reference and learning purposes. Have started with simp
 - [Triplet Sum problem](Array/find_triplet.swift)
 - [First Non Repetitive number in array](Array/first_non_repetative_number.swift)
 - [Data Source Array](Array/DataSourceArray.swift)
+- [Array Running Sum](Array/RunningSum.swift)
+- [Shortest Unsorted Continuous Subarray](Array/ContinuousUnsortedSubarray.swift)
+- [Rotate Array](Array/RotateArray.swift)
 
 ### Strings
 
