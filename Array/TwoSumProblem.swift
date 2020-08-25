@@ -6,6 +6,8 @@
 //  Copyright © 2020 Akshansh Thakur. All rights reserved.
 //
 
+// Approch 1
+
 func checkTwoSum(array: [Int], sum: Int) -> (Bool, Int?, Int?) {
     
     var i = 0
@@ -24,4 +26,19 @@ func checkTwoSum(array: [Int], sum: Int) -> (Bool, Int?, Int?) {
         }
     }
     return (false, nil, nil)
+}
+
+// Approch 2
+func checkTwoSum(array:[Int],sum:Int) -> (Bool,Int?,Int?){
+    var dic:[Int:Int] = [:]
+    
+    for i in array{
+        if dic[i] != nil{
+            return (true,sum-i,i)
+        }else{
+            dic[sum-i] = i
+        }
+    }
+    
+    return (false,nil,nil)
 }

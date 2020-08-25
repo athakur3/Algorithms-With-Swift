@@ -21,6 +21,33 @@ Assume we are dealing with an environment which could only store integers within
 
 */
 
+/* Approach 1 
+    Reverse of a number 
+    1. find the reverse of a number.
+    2. check if its not crossing the max and min limits
+*/
+
+func reverse(_ x: Int) -> Int {
+    var num = x
+    var reverseNum:Int = 0
+    
+     while num != 0 {        
+        reverseNum = reverseNum * 10 + num%10
+        num = num/10
+     }
+        
+     return reverseNum > Int32.max || reverseNum < Int32.min ? 0 : reverseNum
+ }
+
+/* Approch 2
+
+    Main function is reverse()
+    removeAndGetLastDigit removes last digit from an integer 
+    and then it appends this integer to new integer using appenNextDigit function
+
+    1234 -> 123 4 -> 12 34 -> 1 234 -> 0 1234
+
+*/
 func reverse(_ x: Int) -> Int {
     
     var numberToReverse = x > 0 ? x : x * -1
@@ -54,12 +81,4 @@ func appendNextDigit(_ num: inout Double, digit: Int) -> Bool {
         return true
     }
 }
-/*
 
-    Main function is reverse()
-    removeAndGetLastDigit removes last digit from an integer 
-    and then it appends this integer to new integer using appenNextDigit function
-
-    1234 -> 123 4 -> 12 34 -> 1 234 -> 0 1234
-
-*/

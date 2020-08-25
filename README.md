@@ -16,6 +16,7 @@ Writing this project for reference, fun and learning purposes. Have started with
 - [Shortest Unsorted Continuous Subarray](Array/ContinuousUnsortedSubarray.swift)
 - [Rotate Array](Array/RotateArray.swift)
 - [Reverse Digits](Array/ReverseDigits.swift)
+- [Sum of Integer digits](Array/sum_of_integer_digits.swift)
 
 ### Strings
 
@@ -28,6 +29,7 @@ Writing this project for reference, fun and learning purposes. Have started with
 ### Sort
 
 - [Merge Sort](Sort/merge_sort.swift)
+- [Quick Sort](Sort/quick_sort.swift)
 
 ### Search
 
