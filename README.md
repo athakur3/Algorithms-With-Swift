@@ -16,7 +16,8 @@ Writing this project for reference, fun and learning purposes. Have started with
 - [Shortest Unsorted Continuous Subarray](Array/ContinuousUnsortedSubarray.swift)
 - [Rotate Array](Array/RotateArray.swift)
 - [Reverse Digits](Array/ReverseDigits.swift)
-- [Sum of Integer digits](Array/sum_of_integer_digits.swift)
+- [Sum of Integer digits](Array/SumOfDigits.swift)
+- [Shuffle Array](Array/ShuffleArray.swift)
 - [Find Duplicate - Floyed - Tortoie and Hare algo ](floyedTortoieAndHareDuplicateDetection.swift)
 
 ### Strings
