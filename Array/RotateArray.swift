@@ -62,45 +62,37 @@ Space:
 
 // By not using Insert in Swift
 func rotate(_ nums: inout [Int], _ k: Int) {
-        
+    
     var kMax = k
     
     if k > nums.count {
-        kMax = k % nums.count /// Decrease optionals if k increases no of elements in array, it's cyclical :)
+        kMax = k % nums.count
     }
     
     if nums.count < 2 || kMax == 0 {
-        return   // Edge case management
+        return
     }
     
     let length = nums.count
     
-    // Consider divinding the main array into 2 parts. 
-    // One array from 0 to [(n - k) - 1]th index.
-    // One array from [n - k] to [n - 1]th index.
-    // For each array, swap first and last Index
-    // Once this is done, swap from main Array at current Index and at n - current Index.
-    (0...(length - 1)).forEach { // Loop once for each Index
+    (0...(length - 1)).forEach {
         
-        if $0 < (length - kMax - 1 - $0) {            
+        if $0 < (length - kMax - 1 - $0) {
             swap(&nums, $0, length - kMax - 1 - $0)
         }
         
         if (length - kMax + $0) < (length - 1 - $0) {
-            print("true")
             swap(&nums, length - kMax + $0, length - 1 - $0)
         }
-        
-        
+           
         if $0 < (length - 1 - $0) {
             swap(&nums, $0, length - 1 - $0)
-        }          
+        }  
     }
-        
 }
 
 func swap(_ nums: inout [Int], _ i: Int, _ j: Int) {
-        let temp = nums[i]
+    let temp = nums[i]
     nums[i] = nums[j]
     nums[j] = temp
 }

@@ -15,6 +15,7 @@ Writing this project for reference, fun and learning purposes. Have started with
 - [Array Running Sum](Array/RunningSum.swift)
 - [Shortest Unsorted Continuous Subarray](Array/ContinuousUnsortedSubarray.swift)
 - [Rotate Array](Array/RotateArray.swift)
+- [Reverse Digits](Array/ReverseDigits.swift)
 
 ### Strings
 
