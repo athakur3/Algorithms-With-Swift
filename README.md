@@ -17,6 +17,7 @@ Writing this project for reference, fun and learning purposes. Have started with
 - [Rotate Array](Array/RotateArray.swift)
 - [Reverse Digits](Array/ReverseDigits.swift)
 - [Sum of Integer digits](Array/sum_of_integer_digits.swift)
+- [Find Duplicate - Floyed - Tortoie and Hare algo ](floyedTortoieAndHareDuplicateDetection.swift)
 
 ### Strings
 
