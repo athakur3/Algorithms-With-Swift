@@ -29,6 +29,7 @@ Writing this project for reference, fun and learning purposes. Have started with
 ### Sort
 
 - [Merge Sort](Sort/merge_sort.swift)
+- [Quick Sort](Sort/quick_sort.swift)
 
 ### Search
 
