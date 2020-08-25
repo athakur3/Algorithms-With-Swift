@@ -17,6 +17,7 @@ Writing this project for reference, fun and learning purposes. Have started with
 - [Rotate Array](Array/RotateArray.swift)
 - [Reverse Digits](Array/ReverseDigits.swift)
 - [Sum of Integer digits](Array/SumOfDigits.swift)
+- [Shuffle Array](Array/ShuffleArray.swift)
 
 ### Strings
 
