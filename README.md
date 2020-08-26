@@ -28,7 +28,7 @@ Writing this project for reference, fun and learning purposes. Have started with
 - [Create Unique String](String/Create_Unique_string.swift)
 - [Find Anagram](String/find_anagram.swift)
 - [Unique String](String/Unique_string.swift)
-- [Buddy Strings Leetcode](Array/BuddyStrings.swift)
+- [Buddy Strings Leetcode](String/BuddyStrings.swift)
 
 ### Sort
 
