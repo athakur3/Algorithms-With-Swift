@@ -20,7 +20,6 @@ Writing this project for reference, fun and learning purposes. Have started with
 - [Shuffle Array](Array/ShuffleArray.swift)
 - [Find Duplicate - Floyed - Tortoie and Hare algo ](Array/FloyedTortoieAndHareDuplicateDetection.swift)
 - [Longest SubArray by Sum](Array/LongestSubarrayBySum.swift)
-- [Buddy Strings Leetcode](Array/BuddyStrings.swift)
 
 ### Strings
 
@@ -29,6 +28,7 @@ Writing this project for reference, fun and learning purposes. Have started with
 - [Create Unique String](String/Create_Unique_string.swift)
 - [Find Anagram](String/find_anagram.swift)
 - [Unique String](String/Unique_string.swift)
+- [Buddy Strings Leetcode](Array/BuddyStrings.swift)
 
 ### Sort
 
