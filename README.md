@@ -19,6 +19,7 @@ Writing this project for reference, fun and learning purposes. Have started with
 - [Sum of Integer digits](Array/SumOfDigits.swift)
 - [Shuffle Array](Array/ShuffleArray.swift)
 - [Find Duplicate - Floyed - Tortoie and Hare algo ](Array/floyedTortoieAndHareDuplicateDetection.swift)
+- [Longest SubArray by Sum](Array/findLongestSubArrayBySum.swift)
 
 ### Strings
 
