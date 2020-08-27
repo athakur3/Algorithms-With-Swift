@@ -7,7 +7,7 @@ Writing this project for reference, fun and learning purposes. Have started with
 
 - [Reverse an Array](Array/ReverseArray.swift)
 - [Two Sum Problem](Array/TwoSumProblem.swift)
-- [Non-decreasing Array](Array/LeetCode665.swift)
+- [Non-decreasing Array](Array/NonDecreasingArrayWithOneChange.swift)
 - [Find Third Maximum in Array](Array/FindThirdMax.swift)
 - [Triplet Sum problem](Array/FindTriplet.swift)
 - [First Non Repetitive number in array](Array/FirstNonRepetitiveNumber.swift)
