@@ -1,16 +1,25 @@
-# Algorithms-With-Swift
-Writing this project for reference, fun and learning purposes. Have started with simple algorithms, will try to cover more as we go on this journey
+# What exactly is an algorithm? 
+*(To skip reading the introduction, you can scroll down to "Algorithms-With-Swift" section.)*
 
-## Common Algorithms
+An algorithm is a procedure that transforms/converts an input into an output.
+
+In an algorithm, a **series of computations** are applied on an input to get an output. We can call this sequential series of computations a **procedure**, and this procedure is what we call an **algorithm**.
+
+# Algorithms-With-Swift
+Writing this project for learning purposes. We have started with simple algorithms, and we will try to cover more as we go further.
+
+We will be solving algorithm problem statements using Swift Programming Language to begin with.
+
+## Algorithms
 
 ### Array
 
 - [Reverse an Array](Array/ReverseArray.swift)
 - [Two Sum Problem](Array/TwoSumProblem.swift)
-- [Non-decreasing Array](Array/LeetCode665.swift)
+- [Non-decreasing Array](Array/NonDecreasingArrayWithOneChange.swift)
 - [Find Third Maximum in Array](Array/FindThirdMax.swift)
-- [Triplet Sum problem](Array/find_triplet.swift)
-- [First Non Repetitive number in array](Array/first_non_repetative_number.swift)
+- [Triplet Sum problem](Array/FindTriplet.swift)
+- [First Non Repetitive number in array](Array/FirstNonRepetitiveNumber.swift)
 - [Data Source Array](Array/DataSourceArray.swift)
 - [Array Running Sum](Array/RunningSum.swift)
 - [Shortest Unsorted Continuous Subarray](Array/ContinuousUnsortedSubarray.swift)
@@ -18,8 +27,11 @@ Writing this project for reference, fun and learning purposes. Have started with
 - [Reverse Digits](Array/ReverseDigits.swift)
 - [Sum of Integer digits](Array/SumOfDigits.swift)
 - [Shuffle Array](Array/ShuffleArray.swift)
-- [Find Duplicate - Floyed - Tortoie and Hare algo ](Array/floyedTortoieAndHareDuplicateDetection.swift)
-- [Longest SubArray by Sum](Array/findLongestSubArrayBySum.swift)
+- [Find Duplicate - Floyed - Tortoie and Hare algo ](Array/FloyedTortoieAndHareDuplicateDetection.swift)
+- [Longest SubArray by Sum](Array/LongestSubarrayBySum.swift)
+- [Kids With the Greatest Number of Candies](Array/KidsWithCandies.swift)
+- [Number Of Good Pairs](Array/NumberOfGoodPairs.swift)
+
 
 ### Strings
 
@@ -28,6 +40,7 @@ Writing this project for reference, fun and learning purposes. Have started with
 - [Create Unique String](String/Create_Unique_string.swift)
 - [Find Anagram](String/find_anagram.swift)
 - [Unique String](String/Unique_string.swift)
+- [Buddy Strings Leetcode](String/BuddyStrings.swift)
 
 ### Sort
 
