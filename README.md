@@ -21,6 +21,7 @@ Writing this project for reference, fun and learning purposes. Have started with
 - [Find Duplicate - Floyed - Tortoie and Hare algo ](Array/FloyedTortoieAndHareDuplicateDetection.swift)
 - [Longest SubArray by Sum](Array/LongestSubarrayBySum.swift)
 - [Kids With the Greatest Number of Candies](Array/KidsWithCandies.swift)
+- [Number Of Good Pairs](Array/NumberOfGoodPairs.swift)
 
 
 ### Strings
