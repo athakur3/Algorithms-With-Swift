@@ -22,6 +22,7 @@ Writing this project for reference, fun and learning purposes. Have started with
 - [Longest SubArray by Sum](Array/LongestSubarrayBySum.swift)
 - [Kids With the Greatest Number of Candies](Array/KidsWithCandies.swift)
 - [Number Of Good Pairs](Array/NumberOfGoodPairs.swift)
+- [Numbers With Even Digits](Array/NumbersWithEvenDigits.swift)
 
 
 ### Strings
