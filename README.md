@@ -5,6 +5,10 @@ An algorithm is a procedure that transforms/converts an input into an output.
 
 In an algorithm, a **series of computations** are applied on an input to get an output. We can call this sequential series of computations a **procedure**, and this procedure is what we call an **algorithm**.
 
+# OOPS with Swift
+Polymorphism, Inheritance, Encapsulation, Properties, Methods, Overriding versus Overloading, Types versus Instances
+, Composition, Access Control
+
 # Algorithms-With-Swift
 Writing this project for learning purposes. We have started with simple algorithms, and we will try to cover more as we go further.
 
