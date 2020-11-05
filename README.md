@@ -14,6 +14,11 @@ Writing this project for learning purposes. We have started with simple algorith
 
 We will be solving algorithm problem statements using Swift Programming Language to begin with.
 
+## DataStructure
+### LinkedLists
+- [Linked List](DataStructure/LinkedList/LinkList.swift)
+- [Merge two link Lists](DataStructure/LinkedList/Merge_Two_Linked_Lists.swift)
+
 ## Algorithms
 
 ### Array
