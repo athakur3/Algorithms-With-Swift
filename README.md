@@ -51,6 +51,7 @@ We will be solving algorithm problem statements using Swift Programming Language
 - [Find Anagram](String/find_anagram.swift)
 - [Unique String](String/Unique_string.swift)
 - [Buddy Strings Leetcode](String/BuddyStrings.swift)
+- [Sliding window - count anagrams](String/SlidingWindowCheckAnagram.swift)
 
 ### Sort
 
