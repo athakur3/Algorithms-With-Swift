@@ -32,6 +32,7 @@ We will be solving algorithm problem statements using Swift Programming Language
 - [Kids With the Greatest Number of Candies](Array/KidsWithCandies.swift)
 - [Number Of Good Pairs](Array/NumberOfGoodPairs.swift)
 - [Numbers With Even Digits](Array/NumbersWithEvenDigits.swift)
+- [Leetcode 66](Array/Leetcode66.swift)
 
 
 ### Strings
