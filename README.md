@@ -33,6 +33,7 @@ We will be solving algorithm problem statements using Swift Programming Language
 - [Number Of Good Pairs](Array/NumberOfGoodPairs.swift)
 - [Numbers With Even Digits](Array/NumbersWithEvenDigits.swift)
 - [Leetcode 66](Array/LeetCode66.swift)
+- [Leetcode 392](Array/Leetcode392.swift)
 
 
 ### Strings
