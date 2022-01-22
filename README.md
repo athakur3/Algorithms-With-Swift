@@ -42,6 +42,10 @@ We will be solving algorithm problem statements using Swift Programming Language
 - [Number Of Good Pairs](Array/NumberOfGoodPairs.swift)
 - [Numbers With Even Digits](Array/NumbersWithEvenDigits.swift)
 - [Longest SubArray using sliding window](Array/LongestSubArraySlidingWindow.swift)
+- [Leetcode 66](Array/LeetCode66.swift)
+- [Leetcode 392](Array/Leetcode392.swift)
+- [Leetcode1528](Array/Leetcode1528.swift)
+- [Leetcode1365](Array/Leetcode1365.swift)
 
 
 ### Strings
@@ -53,6 +57,8 @@ We will be solving algorithm problem statements using Swift Programming Language
 - [Unique String](String/Unique_string.swift)
 - [Buddy Strings Leetcode](String/BuddyStrings.swift)
 - [Sliding window - count anagrams](String/SlidingWindowCheckAnagram.swift)
+- [Longest Substring Without Repeating Characters](String/longestSubstringWithoutRepeatingCharacters.swift)
+- [Leetcode2158](String/Leetcode2108.swift)
 
 ### Sort
 
@@ -62,6 +68,10 @@ We will be solving algorithm problem statements using Swift Programming Language
 ### Search
 
 - [Binary Search](Search/BinarySearch.swift)
+
+### Trees
+
+- [Leetcode 1026](Trees/MaxDiffBetweenNodeAndAncestor.swift)
 
 
 
