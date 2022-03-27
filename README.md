@@ -71,6 +71,7 @@ We will be solving algorithm problem statements using Swift Programming Language
 
 ### Trees
 - [Binary Tree Traversals](Trees/TreeTreversals.swift)
+- [Lowest Common Ancestor](Trees/lowestCommonAncestor.swift)
 - [Leetcode 1026](Trees/MaxDiffBetweenNodeAndAncestor.swift)
 
 
