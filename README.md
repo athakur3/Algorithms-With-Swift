@@ -70,7 +70,7 @@ We will be solving algorithm problem statements using Swift Programming Language
 - [Binary Search](Search/BinarySearch.swift)
 
 ### Trees
-- [Binary Tree Traversals](Trees/preorder.swift)
+- [Binary Tree Traversals](Trees/TreeTreversals.swift)
 - [Leetcode 1026](Trees/MaxDiffBetweenNodeAndAncestor.swift)
 
 
