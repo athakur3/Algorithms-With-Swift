@@ -22,18 +22,22 @@ class Solution {
         if root == nil {
             return nil
         }
-        
+        // check if the root is equal to p or q
         if (root === p) || (root === q){
             return root
         }
-        
+        // if not
+        // get the root with values of p and q for left and right side.
         let leftroot = lowestCommonAncestor(root!.left,p,q)
         let rightRoot = lowestCommonAncestor(root!.right,p,q)
         
+        // if both left and right root node presents i.e both p and q nodes are separated by current node and current node is the common ancestor
         if leftroot != nil && rightRoot != nil {
             return root
         }
         
+        // if only left root exists that means q and p values are present on the one side and since left root value is found so other value must also be present under it
+        // and hence the non nil root becomes the least ancestor
         if leftroot != nil {
             return leftroot
         }else {
