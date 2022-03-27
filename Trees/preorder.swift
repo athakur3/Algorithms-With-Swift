@@ -13,6 +13,11 @@
  *     }
  * }
  */
+
+/*
+for a binary try preorder treversal is defined as root,left,right
+*/
+
 class Solution {
     func preorderTraversal(_ root: TreeNode?) -> [Int] {
         // base condition
