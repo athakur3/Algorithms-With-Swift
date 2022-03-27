@@ -69,4 +69,51 @@ class Solution {
            
         return array
     }
+    
+    /*
+    Level order traversal -> travers very level
+    */
+    func levelOrder(_ root: TreeNode?) -> [[Int]] {
+        let height = heightOfTree(root)
+        
+        var array:[[Int]] = []
+        for i in 0 ..< height {
+            let values = currentLevel(root,level:i)
+            array.append(values)
+        }
+        
+        return array
+    }
+    
+    func currentLevel(_ root: TreeNode?,level: Int) -> [Int] {
+        guard let node = root else {return []}
+        
+        if level == 0 {
+            return [node.val]
+        }
+        
+        let leftLevel = currentLevel(node.left,level:level - 1)
+        let rightLevel = currentLevel(node.right,level:level - 1)
+        
+        var array = leftLevel
+        array.append(contentsOf: rightLevel)
+        
+        return array
+    }
+    
+    /*
+    Height of tree
+    */
+    func heightOfTree(_ root: TreeNode?) -> Int {
+        guard let node = root else {return 0}
+        
+        let leftHeight = heightOfTree(node.left)
+        let rightHeight = heightOfTree(node.right)
+        
+        if leftHeight > rightHeight{
+            return leftHeight + 1
+        }else{ 
+            return rightHeight + 1
+        }
+    }
 }
