@@ -60,6 +60,7 @@ We will be solving algorithm problem statements using Swift Programming Language
 - [Sliding window - count anagrams](String/SlidingWindowCheckAnagram.swift)
 - [Longest Substring Without Repeating Characters](String/longestSubstringWithoutRepeatingCharacters.swift)
 - [Leetcode2158](String/Leetcode2108.swift)
+- [print Fibbonaci series](String/printFibbonaciSeries.swift)
 
 ### Sort
 
