@@ -26,7 +26,7 @@ We will be solving algorithm problem statements using Swift Programming Language
 - [Leetcode 1026](Trees/MaxDiffBetweenNodeAndAncestor.swift)
 
 ## Dynamic Programing
-- [Fibonaci series](Dynamic%20Programming/Fibbonci_Series.swift)
+- [Fibonaci series](Dynamic%20Programming/Fibbonci&Tribonacci_Series.swift)
 
 ## Algorithms
 
