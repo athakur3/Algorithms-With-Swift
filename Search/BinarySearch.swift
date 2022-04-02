@@ -43,3 +43,23 @@ func BinarySearch(_ array: [Int], target: Int) -> Bool {
     
     return false
 }
+
+// Returns index of the search value else return -1
+func binarySearch(_ nums:[Int],_ target:Int,_ startIndex:Int,_ endIndex:Int) -> Int{
+     if startIndex > endIndex  {
+        return -1
+     }
+        
+     let mid = startIndex + (endIndex - startIndex)/2
+     let midValue = nums[mid]
+        
+     if midValue == target {
+         return mid
+     }else if target > midValue{
+         return binarySearch(nums,target,mid+1,endIndex)
+     }else if target < midValue{
+         return binarySearch(nums,target,startIndex,mid - 1)
+     }
+        
+     return -1
+}
