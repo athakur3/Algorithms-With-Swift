@@ -19,6 +19,14 @@ We will be solving algorithm problem statements using Swift Programming Language
 - [Linked List](DataStructure/LinkedList/LinkList.swift)
 - [Merge two link Lists](DataStructure/LinkedList/Merge_Two_Linked_Lists.swift)
 
+### Trees
+- [Binary Tree Traversals](Trees/TreeTreversals.swift)
+- [Invert Binary Tree Along Root](Trees/InvertBinaryTreeAlongRoot.swift)
+- [Lowest Common Ancestor](Trees/lowestCommonAncestor.swift)
+- [Leetcode 1026](Trees/MaxDiffBetweenNodeAndAncestor.swift)
+
+## Dynamic Programing
+
 ## Algorithms
 
 ### Array
@@ -71,13 +79,9 @@ We will be solving algorithm problem statements using Swift Programming Language
 
 - [Binary Search](Search/BinarySearch.swift)
 
-### Trees
-- [Binary Tree Traversals](Trees/TreeTreversals.swift)
-- [Invert Binary Tree Along Root](Trees/InvertBinaryTreeAlongRoot.swift)
-- [Lowest Common Ancestor](Trees/lowestCommonAncestor.swift)
-- [Leetcode 1026](Trees/MaxDiffBetweenNodeAndAncestor.swift)
 
-### Dynamic Programing
+
+
 
 
 
