@@ -19,6 +19,14 @@ We will be solving algorithm problem statements using Swift Programming Language
 - [Linked List](DataStructure/LinkedList/LinkList.swift)
 - [Merge two link Lists](DataStructure/LinkedList/Merge_Two_Linked_Lists.swift)
 
+### Trees
+- [Binary Tree Traversals](Trees/TreeTreversals.swift)
+- [Invert Binary Tree Along Root](Trees/InvertBinaryTreeAlongRoot.swift)
+- [Lowest Common Ancestor](Trees/lowestCommonAncestor.swift)
+- [Leetcode 1026](Trees/MaxDiffBetweenNodeAndAncestor.swift)
+
+## Dynamic Programing
+
 ## Algorithms
 
 ### Array
@@ -42,6 +50,7 @@ We will be solving algorithm problem statements using Swift Programming Language
 - [Number Of Good Pairs](Array/NumberOfGoodPairs.swift)
 - [Numbers With Even Digits](Array/NumbersWithEvenDigits.swift)
 - [Longest SubArray using sliding window](Array/LongestSubArraySlidingWindow.swift)
+- [Kadanes algo longest subarray with max sum](Array/Kadane'sAlgo_maxSubarray.swift)
 - [Leetcode 66](Array/LeetCode66.swift)
 - [Leetcode 392](Array/Leetcode392.swift)
 - [Leetcode1528](Array/Leetcode1528.swift)
@@ -59,6 +68,7 @@ We will be solving algorithm problem statements using Swift Programming Language
 - [Sliding window - count anagrams](String/SlidingWindowCheckAnagram.swift)
 - [Longest Substring Without Repeating Characters](String/longestSubstringWithoutRepeatingCharacters.swift)
 - [Leetcode2158](String/Leetcode2108.swift)
+- [print Fibbonaci series](String/printFibbonaciSeries.swift)
 
 ### Sort
 
@@ -69,9 +79,9 @@ We will be solving algorithm problem statements using Swift Programming Language
 
 - [Binary Search](Search/BinarySearch.swift)
 
-### Trees
 
-- [Leetcode 1026](Trees/MaxDiffBetweenNodeAndAncestor.swift)
+
+
 
 
 
