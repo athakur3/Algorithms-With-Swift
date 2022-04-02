@@ -70,6 +70,7 @@ We will be solving algorithm problem statements using Swift Programming Language
 - [Longest Substring Without Repeating Characters](String/longestSubstringWithoutRepeatingCharacters.swift)
 - [Leetcode2158](String/Leetcode2108.swift)
 - [print Fibbonaci series](String/printFibbonaciSeries.swift)
+- [Tribonacci](String/tribonacci)
 
 ### Sort
 
