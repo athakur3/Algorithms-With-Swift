@@ -18,6 +18,7 @@ We will be solving algorithm problem statements using Swift Programming Language
 ### LinkedLists
 - [Linked List](DataStructure/LinkedList/LinkList.swift)
 - [Merge two link Lists](DataStructure/LinkedList/Merge_Two_Linked_Lists.swift)
+- [Reverse a linked list](DataStructure/LinkedList/reverseLinkedList.swift)
 
 ### Trees
 - [Binary Tree Traversals](Trees/TreeTreversals.swift)
