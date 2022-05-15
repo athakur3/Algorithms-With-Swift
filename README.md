@@ -16,7 +16,7 @@ We will be solving algorithm problem statements using Swift Programming Language
 
 ## DataStructure
 ### LRU Cache
-- [LRU Cache](DataStructure/LinkedList/CacheLRU.swift)
+- [LRU Cache](DataStructure/LinkedList/CacheLRU.swift) - My Playground leedcode --> https://leetcode.com/playground/ZrvCR76F
 
 ### LinkedLists
 - [Linked List](DataStructure/LinkedList/LinkList.swift)
