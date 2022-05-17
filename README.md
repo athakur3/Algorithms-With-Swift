@@ -31,8 +31,11 @@ We will be solving algorithm problem statements using Swift Programming Language
 - [Lowest Common Ancestor](Trees/lowestCommonAncestor.swift)
 - [Leetcode 1026](Trees/MaxDiffBetweenNodeAndAncestor.swift)
 
+### BST
+- [Validate Binary Search Tree](Trees/isValidBST.swift) -> [LC](https://leetcode.com/problems/validate-binary-search-tree/)
+
 ### Graphs
-- [DFS - Number of islands](graphs/numberOfIslands.swift) [LC](https://leetcode.com/problems/number-of-islands/)
+- [DFS - Number of islands](graphs/numberOfIslands.swift) -> [LC](https://leetcode.com/problems/number-of-islands/)
 
 ## Dynamic Programing
 - [Fibonaci & Tribonacci series](Dynamic%20Programming/Fibbonci&Tribonacci_Series.swift)
