@@ -26,6 +26,7 @@ We will be solving algorithm problem statements using Swift Programming Language
 
 ### Trees
 - [Binary Tree Traversals](Trees/TreeTreversals.swift)
+- [Binary Tree Paths](Trees/Binary_Tree_Paths.swift) -> [LeetCode 257](https://leetcode.com/problems/binary-tree-paths/)
 - [Invert Binary Tree Along Root](Trees/InvertBinaryTreeAlongRoot.swift)
 - [Lowest Common Ancestor](Trees/lowestCommonAncestor.swift)
 - [Leetcode 1026](Trees/MaxDiffBetweenNodeAndAncestor.swift)
