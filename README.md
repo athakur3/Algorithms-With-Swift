@@ -27,6 +27,7 @@ We will be solving algorithm problem statements using Swift Programming Language
 ### Trees
 - [Binary Tree Traversals](Trees/TreeTreversals.swift)
 - [Tree BFS and DFS Logic](Trees/Tree_BFS_DFS.swift) -> [Explanation Link](https://holyswift.app/the-simplest-bfs-and-dfs-templates-for-algorithms-in-swift)
+- [Level order traversal Using BFS](Trees/LevelOrderTravesalUsingBFS.swift) -> [Leetcode](https://leetcode.com/problems/binary-tree-level-order-traversal/)
 - [Binary Tree Paths](Trees/Binary_Tree_Paths.swift) -> [LeetCode 257](https://leetcode.com/problems/binary-tree-paths/)
 - [Invert Binary Tree Along Root](Trees/InvertBinaryTreeAlongRoot.swift)
 - [Lowest Common Ancestor](Trees/lowestCommonAncestor.swift)
