@@ -27,6 +27,52 @@
 // ]
 // Output: 3
 
+// Elegant DFS solution
+ struct DFSElement:Hashable{
+        let row: Int
+        let col: Int
+        
+        init(_ row: Int, _ col: Int){
+            self.row = row
+            self.col = col
+        }
+    }
+    
+    func numIslands(_ grid: [[Character]]) -> Int {
+        var result = 0
+        var visited = Set<DFSElement>()
+        
+        for i in 0 ..< grid.count{
+            for j in 0 ..< grid[0].count {
+                guard !visited.contains(DFSElement(i,j)) else {continue}
+                if grid[i][j] == "1" {
+                    result += 1
+                    dfs(grid,i,j,&visited)
+                }
+            }
+        }
+        
+        return result
+    } 
+    
+    func dfs(_ grid: [[Character]],_ row:Int, _ col: Int,_ visited: inout Set<DFSElement>) {
+        visited.insert(DFSElement(row,col))
+        
+        for (row1,col1) in [(row + 1,col),(row - 1,col),(row,col + 1),(row,col - 1)] {
+            guard (row1 >= 0 && row1 < grid.count && col1 >= 0 && col1 < grid[0].count) else {
+                continue
+            }
+
+            guard !visited.contains(DFSElement(row1,col1)) else {
+                continue}
+            if grid[row1][col1] == "1"{
+                dfs(grid,row1,col1,&visited)
+            }
+        }
+    }
+}
+
+// Other solution
 class Solution {
     var visitedNodes:[[Bool]] = [[]] 
     func numIslands(_ grid: [[Character]]) -> Int {
