@@ -32,6 +32,7 @@ We will be solving algorithm problem statements using Swift Programming Language
 - [Invert Binary Tree Along Root](Trees/InvertBinaryTreeAlongRoot.swift)
 - [Lowest Common Ancestor](Trees/lowestCommonAncestor.swift)
 - [Leetcode 1026](Trees/MaxDiffBetweenNodeAndAncestor.swift)
+- [Burn a Binary Tree Using Graph](Trees/BurnBinaryTreeUsingGraph.swift) -> [Interview Bit](https://www.interviewbit.com/problems/burn-a-tree/)
 
 ### BST
 - [Validate Binary Search Tree](Trees/isValidBST.swift) -> [LC](https://leetcode.com/problems/validate-binary-search-tree/)
