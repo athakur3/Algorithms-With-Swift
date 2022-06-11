@@ -72,6 +72,7 @@ We will be solving algorithm problem statements using Swift Programming Language
 - [Leetcode 392](Array/Leetcode392.swift)
 - [Leetcode1528](Array/Leetcode1528.swift)
 - [Leetcode1365](Array/Leetcode1365.swift)
+- [Two pointer -> Container with most water](Array/ContainerWithMostWater.swift) -> [LC](https://leetcode.com/problems/container-with-most-water/)
 
 
 ### Strings
