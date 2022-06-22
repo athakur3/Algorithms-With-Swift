@@ -55,3 +55,21 @@ class Solution {
         return min(minCostArray[stairLocation - 1],minCostArray[stairLocation - 2])
     }
 }
+
+
+// Simplified
+class Solution {
+    func minCostClimbingStairs(_ cost: [Int]) -> Int {
+        // knapsack problem
+        var numberOfStairs = cost.count
+        var minCostArray = [Int](repeating:-1,count:numberOfStairs)
+        minCostArray[0] = cost[0]
+        minCostArray[1] = cost[1]
+        
+        for i in 2 ..< numberOfStairs {    
+            minCostArray[i] = min(minCostArray[i - 1],minCostArray[i - 2]) + cost[i]
+        }
+        
+        return min(minCostArray[numberOfStairs - 1],minCostArray[numberOfStairs - 2])
+    }
+}
