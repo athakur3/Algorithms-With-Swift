@@ -44,6 +44,7 @@ We will be solving algorithm problem statements using Swift Programming Language
 
 ## Dynamic Programing
 - [Fibonaci & Tribonacci series](Dynamic%20Programming/Fibbonci&Tribonacci_Series.swift)
+- [Minimum Stair Cost](Dynamic%20Programming/MinimumStairsCost.swift)
 
 ## Algorithms
 
