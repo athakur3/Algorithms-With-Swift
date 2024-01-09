@@ -4,6 +4,35 @@
   Given a string s, find the length of the longest substring without repeating characters.
 */
 
+// simplere version
+
+class Solution {
+    func lengthOfLongestSubstring(_ s: String) -> Int {
+        var window = [Character]()
+        var length:Int = 0
+        
+        for i in s {
+            if window.isEmpty{
+                window.append(i)
+            }else{
+                if window.contains(i) {
+                    if length < window.count {
+                        length = window.count
+                    }
+                    
+                   while window.contains(i) {
+                       window.remove(at:0)
+                   } 
+                }
+                
+                window.append(i)
+            }
+        }
+        
+        return max(length,window.count)
+    }
+}
+
 class Solution {
     func lengthOfLongestSubstring(_ s: String) -> Int {
         
