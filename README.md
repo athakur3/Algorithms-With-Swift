@@ -41,6 +41,8 @@ We will be solving algorithm problem statements using Swift Programming Language
 
 ### Graphs
 - [DFS - Number of islands](graphs/numberOfIslands.swift) -> [LC](https://leetcode.com/problems/number-of-islands/)
+- Dijkestra
+  - [PriorityQueue](graphs/dijkstra/priorityQueue.swift)  
 
 ## Dynamic Programing
 - [Fibonaci & Tribonacci series](Dynamic%20Programming/Fibbonci&Tribonacci_Series.swift)
