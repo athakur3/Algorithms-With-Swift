@@ -40,7 +40,7 @@ We will be solving algorithm problem statements using Swift Programming Language
 - [Validate Binary Search Tree](Trees/isValidBST.swift) -> [LC](https://leetcode.com/problems/validate-binary-search-tree/)
 
 ### Disjoint sets (Important for graph)
-- [Ranked disjoint set] (graphs/disjointSets/rankedDisjointSet.swift)
+- [Ranked disjoint set](graphs/disjointSets/rankedDisjointSet.swift)
 ### Graphs
 - [Adjanecy list graph](graphs/adjancenyListGraph.swift)
 - [DFS - Number of islands](graphs/numberOfIslands.swift) -> [LC](https://leetcode.com/problems/number-of-islands/)
