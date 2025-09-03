@@ -40,6 +40,7 @@ We will be solving algorithm problem statements using Swift Programming Language
 - [Validate Binary Search Tree](Trees/isValidBST.swift) -> [LC](https://leetcode.com/problems/validate-binary-search-tree/)
 
 ### Graphs
+- [Adjanecy list graph](graphs/adjancenyListGraph.swift)
 - [DFS - Number of islands](graphs/numberOfIslands.swift) -> [LC](https://leetcode.com/problems/number-of-islands/)
 - Dijkestra
   - [PriorityQueue](graphs/dijkstra/priorityQueue.swift)  
