@@ -41,7 +41,8 @@ We will be solving algorithm problem statements using Swift Programming Language
 
 ### Disjoint sets (Important for graph)
 - [Ranked disjoint set](graphs/disjointSets/rankedDisjointSet.swift)
-- [Number of provices](graphs/disjointSets/numberOfProvices.swift)
+  - [Number of provices](graphs/disjointSets/numberOfProvices.swift)
+  - [Graph Valid Tree](graphs/disjointSets/GraphValidTree.swift)
 ### Graphs
 - [Adjanecy list graph](graphs/adjancenyListGraph.swift)
 - [DFS - Number of islands](graphs/numberOfIslands.swift) -> [LC](https://leetcode.com/problems/number-of-islands/)
