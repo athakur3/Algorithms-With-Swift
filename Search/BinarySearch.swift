@@ -1,11 +1,4 @@
-//
-//  BinarySearch.swift
-//  Binary Search Algorithm
-//
-//  Created by Akshansh Thakur on 21/08/20.
-//  Copyright © 2020 Akshansh Thakur. All rights reserved.
-//
-
+// Binary Search
 var data: [Int] {
     var array: [Int] = []
     
@@ -42,4 +35,44 @@ func BinarySearch(_ array: [Int], target: Int) -> Bool {
     }
     
     return false
+}
+
+// Returns index of the search value else return -1
+func binarySearch(_ nums:[Int],_ target:Int,_ startIndex:Int,_ endIndex:Int) -> Int{
+     if startIndex > endIndex  {
+        return -1
+     }
+        
+     let mid = startIndex + (endIndex - startIndex)/2
+     let midValue = nums[mid]
+        
+     if midValue == target {
+         return mid
+     }else if target > midValue{
+         return binarySearch(nums,target,mid+1,endIndex)
+     }else if target < midValue{
+         return binarySearch(nums,target,startIndex,mid - 1)
+     }
+        
+     return -1
+}
+
+// Binary Search Using loop
+func search(_ nums: [Int], _ target: Int) -> Int {
+    var startIndex: Int = 0
+    var endIndex: Int = nums.count - 1
+        
+    while(startIndex <= endIndex){
+        let mid = startIndex + (endIndex - startIndex)/2
+        let midValue = nums[mid]
+        if midValue == target{
+            return mid
+        }else if target > midValue{
+            startIndex = mid + 1 
+        }else{
+            endIndex = mid - 1
+        }
+    }
+        
+    return -1
 }
